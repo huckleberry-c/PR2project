@@ -1,0 +1,1440 @@
+Using pre-set license
+Built from '2022.3/china_unity/release~1' branch; Version is '2022.3.53f1c1 (f16e16b78e06) revision 15822358'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32491 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\Unity2022.3.53\2022.3.53f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/21078/GitHub/PR2project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50011
+Successfully changed project path to: D:/21078/GitHub/PR2project
+D:/21078/GitHub/PR2project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19452]  Target information:
+
+Player connection [19452]  * "[IP] 192.168.2.100 [Port] 0 [Flags] 2 [Guid] 1402777684 [EditorId] 1402777684 [Version] 1048832 [Id] WindowsEditor(7,GAMEstudio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 17.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.53f1c1 (f16e16b78e06)
+[Subsystems] Discovering subsystems at path D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/21078/GitHub/PR2project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityHub/Unity2022.3.53/2022.3.53f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021916 seconds.
+- Loaded All Assemblies, in  0.304 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 244 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.435 seconds
+Domain Reload Profiling: 733ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (436ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (307ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (472ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 15.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.0 KB). Loaded Objects now: 3592.
+Memory consumption went from 130.1 MB to 130.1 MB.
+Total: 3.010500 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.735200 ms  DeleteObjects: 0.073700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74412.087753 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Floor.prefab
+  artifactKey: Guid(88d392e0d130b9b4ca916a9d329bf813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Floor.prefab using Guid(88d392e0d130b9b4ca916a9d329bf813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9f1c164258cd24a159346564b9225d6b') in 0.068751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kitchen Collection 2/Models/Jar.FBX
+  artifactKey: Guid(74b5d5847a7e716449496e3f37a50839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Jar.FBX using Guid(74b5d5847a7e716449496e3f37a50839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5b301ecefc326c93c0c57c59a2388dea') in 0.018775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Stylized Vegetables Collection - Low Poly.c4d
+  artifactKey: Guid(29f8ec825f3b5fa4094625c1f05852de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Vegetables Collection - Low Poly.c4d using Guid(29f8ec825f3b5fa4094625c1f05852de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd1ca9222f6cf25c53154fcebf2bd5bad') in 0.004413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Kitchen Collection 2/Models/Floor.FBX
+  artifactKey: Guid(c738f521b20a41d4e9578e1831c3e9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Floor.FBX using Guid(c738f521b20a41d4e9578e1831c3e9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3b6a8f7549b4a2287ca3f2466042971d') in 0.007276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen Collection 2/Models/Vase 3.FBX
+  artifactKey: Guid(fcaa708a7211c434d8d6f4835b1d0a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Vase 3.FBX using Guid(fcaa708a7211c434d8d6f4835b1d0a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '70b15371ba5968924d1128595e6b1d34') in 0.007327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kitchen Collection 2/Models/Sideboard.FBX
+  artifactKey: Guid(7e3e7955790efb849a9cd01b994aba3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Sideboard.FBX using Guid(7e3e7955790efb849a9cd01b994aba3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '03933e5f5bcc2ce8fe2f892c768a52a2') in 0.008288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Models/Oven.FBX
+  artifactKey: Guid(edefacd2455febc4f86cde195c0d6043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Oven.FBX using Guid(edefacd2455febc4f86cde195c0d6043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '44ae6c2560284c1ff8dbf9277946fa4c') in 0.007267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen Collection 2/Models/Picture 3.FBX
+  artifactKey: Guid(8ae639b12c3194f488d969dd8aff2e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Picture 3.FBX using Guid(8ae639b12c3194f488d969dd8aff2e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6b4f73ad34348b3637ee35a202fa614a') in 0.008151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Dishwasher.prefab
+  artifactKey: Guid(4cf908e691b3d1845a9670596fe52eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Dishwasher.prefab using Guid(4cf908e691b3d1845a9670596fe52eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2044b562b129f5be2d573e88f6977ea3') in 0.007225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kitchen Collection 2/Models/Wall 4.FBX
+  artifactKey: Guid(a5b641d98aeb88b40adcd2f18033753c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Wall 4.FBX using Guid(a5b641d98aeb88b40adcd2f18033753c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd578754e5026384ddfc023c76627f0f1') in 0.006580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Kitchen Collection 2/Models/Column.FBX
+  artifactKey: Guid(1f9ed27e9755dd343832dc6bddcb2ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Column.FBX using Guid(1f9ed27e9755dd343832dc6bddcb2ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e3916584b09a9b6229149bd92c5080d9') in 0.006936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Bottle.prefab
+  artifactKey: Guid(71ef9a213a0925c4288a4c8e4fff8ef0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Bottle.prefab using Guid(71ef9a213a0925c4288a4c8e4fff8ef0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd7f540644f55c4c07062bbbae0ef1350') in 0.005550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kitchen Collection 2/Models/Napkin.FBX
+  artifactKey: Guid(da642bb48eb16aa4194567cc9abde3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Napkin.FBX using Guid(da642bb48eb16aa4194567cc9abde3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '86dd165f316dc05265bde66d77009ae6') in 0.008270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kitchen Collection 2/Models/Table.FBX
+  artifactKey: Guid(36da4d8db890e4b4eb3a7077cbe0d9af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Table.FBX using Guid(36da4d8db890e4b4eb3a7077cbe0d9af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4a9a2ab233c211d5d23e9a6312367f74') in 0.007997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen Collection 2/Models/Window.FBX
+  artifactKey: Guid(20ce21df0a61bf64fb2373e4dd3c06c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Window.FBX using Guid(20ce21df0a61bf64fb2373e4dd3c06c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fc47b7cfa8df81145b3ab9ddc8f1dd52') in 0.022390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Models/Vase 1.FBX
+  artifactKey: Guid(433936ac7a802bf428045aa685d6eefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Vase 1.FBX using Guid(433936ac7a802bf428045aa685d6eefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2961ee31a7313db13116ad787584aa27') in 0.008349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Chair.prefab
+  artifactKey: Guid(47b6b4e1fcfccc24fab865950b107875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Chair.prefab using Guid(47b6b4e1fcfccc24fab865950b107875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9d398b8645037edc8b34c931b903c2e4') in 0.006084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(e13f4ddc685fbc94e8691a5ae75ce0e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Demo.unity using Guid(e13f4ddc685fbc94e8691a5ae75ce0e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c0e5b5332111496d20065e3884998283') in 0.003511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Glass 1.prefab
+  artifactKey: Guid(4d1b2a6b20a858a4583dbbb7fae7a30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Glass 1.prefab using Guid(4d1b2a6b20a858a4583dbbb7fae7a30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5f4758c8285345b4c84293887dcea23c') in 0.006671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Glass 3.prefab
+  artifactKey: Guid(6581f3e10d593094583622d38b667296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Glass 3.prefab using Guid(6581f3e10d593094583622d38b667296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2eea7aa66fa7d9fd61cf8f3289aed73e') in 0.004973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Dish rack.prefab
+  artifactKey: Guid(f3928a48a276e914d9c7bcd97e9b1cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Dish rack.prefab using Guid(f3928a48a276e914d9c7bcd97e9b1cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e9124304d5522f661d902e7a9a8cfa4c') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Models/Chair.FBX
+  artifactKey: Guid(f97e1d2b6c0c33547b1e871775ec67ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Chair.FBX using Guid(f97e1d2b6c0c33547b1e871775ec67ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b9a6e55201535d216a1947153a818e97') in 0.008832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.140466 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Jar.prefab
+  artifactKey: Guid(e445861a6ed0de4459e1a571659cb4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Jar.prefab using Guid(e445861a6ed0de4459e1a571659cb4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9191a356198db33263298aa973fc9348') in 0.005923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Kitchen Collection 2/Textures/rose.png
+  artifactKey: Guid(18585bf9c5a130f4d9c650f5e347f57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/rose.png using Guid(18585bf9c5a130f4d9c650f5e347f57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '013a4e6a0d03c74c27c55c8f8c506198') in 0.055255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kitchen Collection 2/Textures/napkin.png
+  artifactKey: Guid(fa4aa4cb7f6de8243a25047196a54f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/napkin.png using Guid(fa4aa4cb7f6de8243a25047196a54f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8b976b7f034b7ed582e3e55d4bbda690') in 0.017278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Kitchen Collection 2/Textures/leaf 1 N.png
+  artifactKey: Guid(6b0f800ace639d14888f1b2968dd9189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/leaf 1 N.png using Guid(6b0f800ace639d14888f1b2968dd9189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '20468a2223dbbca8d384109c447f4da2') in 0.012389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Kitchen Collection 2/Textures/door N.png
+  artifactKey: Guid(17fb130c10c6dbb47981746d96f4dd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/door N.png using Guid(17fb130c10c6dbb47981746d96f4dd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0693302c575e316cd88684c14ea39a18') in 0.009050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Kitchen Collection 2/Textures/Cat N.png
+  artifactKey: Guid(5e031a08b0610f74fa31fc259067d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/Cat N.png using Guid(5e031a08b0610f74fa31fc259067d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'acd08480ad334b7b06e44f430ce94606') in 0.009477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Kitchen Furniture 3.prefab
+  artifactKey: Guid(ce1d3409502c132469033854e7c1d54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Kitchen Furniture 3.prefab using Guid(ce1d3409502c132469033854e7c1d54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8d8bf8a8dbbdc8abc18686ed26bc5db4') in 0.006090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Kitchen Collection 2/Textures/land.png
+  artifactKey: Guid(8a89722902ec26149bf86a42db38d03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/land.png using Guid(8a89722902ec26149bf86a42db38d03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2980848ed61f7332425b96d0fce66f9a') in 0.009548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Textures/lemon.png
+  artifactKey: Guid(29b63728d118a0141ad450140b114635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/lemon.png using Guid(29b63728d118a0141ad450140b114635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '46768f64cbe105a96cf5a12bc14b1687') in 0.007732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kitchen Collection 2/Textures/pictures.png
+  artifactKey: Guid(bf259c866d95c1f4a93ed3f55165de8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/pictures.png using Guid(bf259c866d95c1f4a93ed3f55165de8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1c58da734f786e89163a8df9019aa152') in 0.007449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Plant 1.prefab
+  artifactKey: Guid(ebbe0bd3a4601f04f8fb337a9294acea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Plant 1.prefab using Guid(ebbe0bd3a4601f04f8fb337a9294acea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c64b590773982dc183f1fbd1f069da55') in 0.014225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Kitchen Collection 2/Textures/apricot N.png
+  artifactKey: Guid(8d52415787b6bf9479a63dd3cf924839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/apricot N.png using Guid(8d52415787b6bf9479a63dd3cf924839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7d930b8c5ef1eb61a5f14ad4cc0b8aea') in 0.008079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Tiles.prefab
+  artifactKey: Guid(3b3a45598f15e454aae03dbbacdea250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Tiles.prefab using Guid(3b3a45598f15e454aae03dbbacdea250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '88158bad67a55717fc89ba2d18fed746') in 0.005976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Textures/lemon 2.png
+  artifactKey: Guid(7d3aa2f2b87286d41a4369dd8f709400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/lemon 2.png using Guid(7d3aa2f2b87286d41a4369dd8f709400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6c8abc0938b39c075230780fb6e8e16f') in 0.007959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Tomato.prefab
+  artifactKey: Guid(e692abf62d0b19d4b8c44fe5d4c63928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Tomato.prefab using Guid(e692abf62d0b19d4b8c44fe5d4c63928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4bfdacd33587a4012686b6fe0f4d8709') in 0.004683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen Collection 2/Textures/Microwave N.png
+  artifactKey: Guid(ce15369424d43184ba2fdf2889a6730a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/Microwave N.png using Guid(ce15369424d43184ba2fdf2889a6730a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd2111139557945676edd4df66869d811') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kitchen Collection 2/Textures/Books.png
+  artifactKey: Guid(5415c0d977a2d7a45bb0fd9a8b6a49a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/Books.png using Guid(5415c0d977a2d7a45bb0fd9a8b6a49a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2dbeacd39fae974c4664a65a647d5c46') in 0.006800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Kitchen Collection 2/Textures/cup 1.png
+  artifactKey: Guid(733b35064d91e5a47a88dba167822864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/cup 1.png using Guid(733b35064d91e5a47a88dba167822864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ea388333d80f99a1fd82687790afc3ef') in 0.007007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Textures/clock.png
+  artifactKey: Guid(6656febc5a54d7f46b476337d3a6780f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/clock.png using Guid(6656febc5a54d7f46b476337d3a6780f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5607c3cc447663fe860e6a237a02aecb') in 0.007453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kitchen Collection 2/Textures/milk 2.png
+  artifactKey: Guid(0d2109f04c4c7d84fb4f4c9747410e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/milk 2.png using Guid(0d2109f04c4c7d84fb4f4c9747410e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0e3918189606657d663934643055c903') in 0.007374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kitchen Collection 2/Textures/ceiling lamp.png
+  artifactKey: Guid(77c74d29dbd04074fa7b8e6da4174a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/ceiling lamp.png using Guid(77c74d29dbd04074fa7b8e6da4174a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '98c26764e9a456062ea035b119cedb3a') in 0.006799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kitchen Collection 2/Textures/fabric2.png
+  artifactKey: Guid(03a3f980f08e7a94fa4c4351c6bfa5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/fabric2.png using Guid(03a3f980f08e7a94fa4c4351c6bfa5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f0addaba0a1d0f74ea5726fdbb75a10') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Utensils.prefab
+  artifactKey: Guid(7eb0953a9c57bb84fa461447c924e889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Utensils.prefab using Guid(7eb0953a9c57bb84fa461447c924e889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b627d708246f53359f0ea6e2c97d3591') in 0.004863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Picture 4.prefab
+  artifactKey: Guid(851ee89173e59114f8cc370e48a02a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Picture 4.prefab using Guid(851ee89173e59114f8cc370e48a02a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b7a065d58a37c98fef9c4cdee4e60a3e') in 0.004776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Window.prefab
+  artifactKey: Guid(57952940251856d4f8c9a4e2b08e9c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Window.prefab using Guid(57952940251856d4f8c9a4e2b08e9c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '93ffc97a75cd0c509e92cbbfde67eba0') in 0.004103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Vase 4.prefab
+  artifactKey: Guid(bd89b0451d5088a418eb4b93becfd7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Vase 4.prefab using Guid(bd89b0451d5088a418eb4b93becfd7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7c5a151d7e28a874d4e41d856955021e') in 0.007018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kitchen Collection 2/Textures/fabric2 n.png
+  artifactKey: Guid(4ce744d3ea43ae1458bb43d6478bac08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/fabric2 n.png using Guid(4ce744d3ea43ae1458bb43d6478bac08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f22844477ae3aa5dbac98eff7f554e74') in 0.007495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Wall 3.prefab
+  artifactKey: Guid(2dec6bfe277241549a11ee430c2562f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Wall 3.prefab using Guid(2dec6bfe277241549a11ee430c2562f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f02b88e2e2af5a1a235fcae79191cef0') in 0.005479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Prefabs/Utensil 1.prefab
+  artifactKey: Guid(6aef34cd58c45ad41a3bf75bb1d75e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Prefabs/Utensil 1.prefab using Guid(6aef34cd58c45ad41a3bf75bb1d75e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4c1f5863434e1efb087d52b5e1d48323') in 0.005729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kitchen Collection 2/Textures/oven.png
+  artifactKey: Guid(a9438d23e769bd94e83fac6c44a36771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/oven.png using Guid(a9438d23e769bd94e83fac6c44a36771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1a937ed7d118a5d83f06e1760f1b1c17') in 0.006987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.212120 seconds.
+  path: Assets/Kitchen Collection 2/Textures/terrain plant 1.png
+  artifactKey: Guid(0a07a61235e200c4e9d4be1ab6bfbd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/terrain plant 1.png using Guid(0a07a61235e200c4e9d4be1ab6bfbd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '53026fc125047515d459bc4df4521c78') in 0.008462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen_Cooking_FX/Prefabs/Saucepan.prefab
+  artifactKey: Guid(1f631631b889381439e2fafe01f5edc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Prefabs/Saucepan.prefab using Guid(1f631631b889381439e2fafe01f5edc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b482c470cf3581cad486b1302829ac84') in 0.009857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.013.png
+  artifactKey: Guid(be5f5972d4220b74d9004c8c3e29e6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.013.png using Guid(be5f5972d4220b74d9004c8c3e29e6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dc8457914ac56813191d190d4ed40b9f') in 0.010545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Kitchen Collection 2/Textures/wood 6.png
+  artifactKey: Guid(fa505a11eb9f542449b977d87a208288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/wood 6.png using Guid(fa505a11eb9f542449b977d87a208288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1678d6f594f0d1ec43335a6274b60465') in 0.006706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen_Cooking_FX/Textures/Gas_Hob_Flames_TextureSheet.tif
+  artifactKey: Guid(03d18fd8dea49434da890a29a35069cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Textures/Gas_Hob_Flames_TextureSheet.tif using Guid(03d18fd8dea49434da890a29a35069cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '401facb4e5fd6eeb4293c97c2e3856d8') in 0.033834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/fbx/fbx/textures/T_Broccoli_R.png
+  artifactKey: Guid(42bd9058314baa944901124bc2c45a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Broccoli_R.png using Guid(42bd9058314baa944901124bc2c45a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '372e0250a752e0e9daf046adf1ac06ad') in 0.010024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kitchen Collection 2/Textures/wood 8 N.png
+  artifactKey: Guid(35d969d48b16e99448e72006039ae9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/wood 8 N.png using Guid(35d969d48b16e99448e72006039ae9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fbf4cddb3b8431c095342204cc80223d') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/fbx/fbx/textures/T_Cauliflower_C.png
+  artifactKey: Guid(a3988f67826f41c4583d3785d5f003fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Cauliflower_C.png using Guid(a3988f67826f41c4583d3785d5f003fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3b1c57d00ecced7be96ec598aebc8b24') in 0.008190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen_Cooking_FX/Audio/Gas_Hob_Audio.wav
+  artifactKey: Guid(e5cf0c2bfca0d3f47a4fa46f567b74bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Audio/Gas_Hob_Audio.wav using Guid(e5cf0c2bfca0d3f47a4fa46f567b74bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '757be8d541c7c8c8db8184d7319c5ac7') in 0.045689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Textures/window.png
+  artifactKey: Guid(6a03504c5928c86418755400d744c1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/window.png using Guid(6a03504c5928c86418755400d744c1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5c37f91783b7fbdb78c54f063f29633c') in 0.008174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kitchen_Cooking_FX/Audio/Bubbling_Liquid_Audio.wav
+  artifactKey: Guid(6da206e4365b6444eb92cd42b6a98b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Audio/Bubbling_Liquid_Audio.wav using Guid(6da206e4365b6444eb92cd42b6a98b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '82692a6cf9c28f6513da4d9442f6d756') in 0.095512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kitchen Collection 2/Textures/wood 2 N.png
+  artifactKey: Guid(aed0a07f67afc1241ac0631bab434d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/wood 2 N.png using Guid(aed0a07f67afc1241ac0631bab434d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ab3408840207f24651ffa71aca5c139f') in 0.009033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.026.png
+  artifactKey: Guid(1d21dd06b25682640bc9db523d1c0bc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.026.png using Guid(1d21dd06b25682640bc9db523d1c0bc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '48de8bbee07372e5a6744e38cca1d923') in 0.010037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/fbx/fbx/textures/T_Beetroot_C.png
+  artifactKey: Guid(9280ef13ffb99c741b1a95d942784522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Beetroot_C.png using Guid(9280ef13ffb99c741b1a95d942784522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '24c38edc4d35dc027011fd0dc9dd24ad') in 0.010549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.004.png
+  artifactKey: Guid(6c4f0f4845166f042b4d117b96863206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.004.png using Guid(6c4f0f4845166f042b4d117b96863206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '151cb949140933f1125377db44b03d1f') in 0.009746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kitchen_Cooking_FX/Audio/Running_Water_Audio.wav
+  artifactKey: Guid(d4a254c30cb2d5c4cb9dc4717bc14afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Audio/Running_Water_Audio.wav using Guid(d4a254c30cb2d5c4cb9dc4717bc14afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '732f7e6bb2024275d6e158d79f55d465') in 0.035883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.023.png
+  artifactKey: Guid(31c79783a6dccd24485aaf71b51a8b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.023.png using Guid(31c79783a6dccd24485aaf71b51a8b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2218490a506ffdbfeface45bc6cb355c') in 0.010109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/fbx/fbx/textures/T_Carrot_R.png
+  artifactKey: Guid(24be6c15610f5fb4685ef60a58bc8133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Carrot_R.png using Guid(24be6c15610f5fb4685ef60a58bc8133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7635471c371f1deb4a93f6ab88dec47a') in 0.009629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/fbx/fbx/textures/T_Carrot_AO.png
+  artifactKey: Guid(deda5be3e9b0b8e408727aa3c2943c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Carrot_AO.png using Guid(deda5be3e9b0b8e408727aa3c2943c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a5945e185060aa7d3a4879dd95892ba3') in 0.011199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Kitchen Collection 2/Textures/wood 2.png
+  artifactKey: Guid(26c065631c2f41441b13b6a68b36346c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/wood 2.png using Guid(26c065631c2f41441b13b6a68b36346c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9a33c66037741328b35898fe1adfc47e') in 0.008218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.024.png
+  artifactKey: Guid(2e335c7c7fb5b884a8d24e8eb043afc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.024.png using Guid(2e335c7c7fb5b884a8d24e8eb043afc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '82e93aec9a6a2f2aec3b29f68512d076') in 0.009309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Kitchen Collection 2/Textures/wood 7 N.png
+  artifactKey: Guid(8efeab1eea85ef24291b6f0db67507f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/wood 7 N.png using Guid(8efeab1eea85ef24291b6f0db67507f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5d0f42a5fe6aa50991222e4342843a0b') in 0.008760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kitchen Collection 2/Textures/white door.png
+  artifactKey: Guid(0518d846290e49744b9d7c237e147dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/white door.png using Guid(0518d846290e49744b9d7c237e147dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4419f406b6ea7078d2697a1f3f95a854') in 0.009407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.014.png
+  artifactKey: Guid(93f9ee9e826332c499c64287d452fa84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.014.png using Guid(93f9ee9e826332c499c64287d452fa84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c722437e68586c092697686057b0dce3') in 0.009579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.025.png
+  artifactKey: Guid(e20e3b39348bbbf4e8f90fbe3cf76568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.025.png using Guid(e20e3b39348bbbf4e8f90fbe3cf76568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0bee82d5b320c15648e669a2503be95c') in 0.008912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kitchen_Cooking_FX/FBX/Saucepan.fbx
+  artifactKey: Guid(bdf7e334e22a1954992c76c26f32b62b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/FBX/Saucepan.fbx using Guid(bdf7e334e22a1954992c76c26f32b62b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cc4c0eb1eebd1d2115f247773a8d644e') in 0.012209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kitchen_Cooking_FX/Textures/Induction_Hob_Glow_c.tif
+  artifactKey: Guid(5f5d09ba663039642930cbf81b5f4ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/Textures/Induction_Hob_Glow_c.tif using Guid(5f5d09ba663039642930cbf81b5f4ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f15cda02d28ea39bf6131414f1788fdc') in 0.042573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/fbx/fbx/textures/T_CarrotLeaves_N.png
+  artifactKey: Guid(85f560bae248cb84fad1ead13826ed03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_CarrotLeaves_N.png using Guid(85f560bae248cb84fad1ead13826ed03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '401373a50860afdc289234b8fdc7c952') in 0.009848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kitchen Collection 2/Textures/Tiles 2.png
+  artifactKey: Guid(6cbb95e529ee96842aab78d1da018574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/Tiles 2.png using Guid(6cbb95e529ee96842aab78d1da018574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '259347556fe422e21103dbb3e63d63e1') in 0.009475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/fbx/fbx/textures/Specular Tint.017.png
+  artifactKey: Guid(165c0ee3cbd4306458ec7841e59cbd09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/Specular Tint.017.png using Guid(165c0ee3cbd4306458ec7841e59cbd09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b65b74d6aea36962e12f19cfa5da6db6') in 0.009480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/fbx/fbx/textures/T_ButternutPumpkin_R.png
+  artifactKey: Guid(d4157132fc8b0964f86788002c1c1b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_ButternutPumpkin_R.png using Guid(d4157132fc8b0964f86788002c1c1b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e30039c8ab0597883c2499726c141455') in 0.011705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/fbx/fbx/textures/T_Chili_AO.png
+  artifactKey: Guid(a5a056d0232dbd44ca90da456eb4977a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Chili_AO.png using Guid(a5a056d0232dbd44ca90da456eb4977a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2bbd97d3a5df3eb10813e196c6350b64') in 0.009503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/fbx/fbx/textures/T_SweetPotato_C.png
+  artifactKey: Guid(0e0cd59db9e586a4ca1f5820604a0c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_SweetPotato_C.png using Guid(0e0cd59db9e586a4ca1f5820604a0c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd024e27f7997bd1cc7f89f21b051bd4c') in 0.008833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/apricot.mat
+  artifactKey: Guid(414c0f2097903804a92860dc783cbeda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/apricot.mat using Guid(414c0f2097903804a92860dc783cbeda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2d871818c7401153a350bd55fd85ad03') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/switch.mat
+  artifactKey: Guid(23342ac7171c46e4698531837958145f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/switch.mat using Guid(23342ac7171c46e4698531837958145f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '252f81a416b1f1e3a7997cb9dbf9ed5a') in 0.006697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/glass.mat
+  artifactKey: Guid(1aa7fc9575f828d4ca0a2c50fae2f080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/glass.mat using Guid(1aa7fc9575f828d4ca0a2c50fae2f080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '61225d036b0b0ca515acb6e04cb959b6') in 0.005788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/floor.mat
+  artifactKey: Guid(33daf1c00bdf0704db8526bd64bfaf8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/floor.mat using Guid(33daf1c00bdf0704db8526bd64bfaf8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1fd1ad35c3eee7aae2f8dda712b5c28c') in 0.009685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/fbx/fbx/textures/T_Onion_C.png
+  artifactKey: Guid(4c0ca461839da6249983d628d97f8ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Onion_C.png using Guid(4c0ca461839da6249983d628d97f8ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '61408468bee6b2832129e836cb55e433') in 0.009007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/fbx/fbx/textures/T_KingOysterMushroom_R.png
+  artifactKey: Guid(8618e110a3960bc4890b7c64d0e58e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_KingOysterMushroom_R.png using Guid(8618e110a3960bc4890b7c64d0e58e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '79c0d393d5fe83e02afe33f26569b73f') in 0.011410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/bin material.mat
+  artifactKey: Guid(e6f8d3bbee7d15342a1bae51f0016829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/bin material.mat using Guid(e6f8d3bbee7d15342a1bae51f0016829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd4e7ec4f0693469028bf5d7ec6922bc9') in 0.005065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/fbx/fbx/textures/T_Ginger_N.png
+  artifactKey: Guid(8697eee81b18abe45ab098da0a3ad43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Ginger_N.png using Guid(8697eee81b18abe45ab098da0a3ad43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9068c5dbc964ab58af3dbcf74bf2744d') in 0.010156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/recipes.mat
+  artifactKey: Guid(fa92f0b33732bf846aacd0d498e0971e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/recipes.mat using Guid(fa92f0b33732bf846aacd0d498e0971e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e614db54b9d698f8e9ddb914df30c6be') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/straw.mat
+  artifactKey: Guid(700e2deb73d4d6a49a9d0d4a1cf70982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/straw.mat using Guid(700e2deb73d4d6a49a9d0d4a1cf70982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '41380a8668031e86507c175c8d62a0b2') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/fbx/fbx/textures/T_Garlic_AO.png
+  artifactKey: Guid(5a638893b04c12c4fb1692f2917fe8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Garlic_AO.png using Guid(5a638893b04c12c4fb1692f2917fe8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1cfc9ce6d6b2208f3659959abe202956') in 0.008097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/fbx/fbx/textures/T_Radish_N.png
+  artifactKey: Guid(c274ffc0925c1ec46a177cfad175c6fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Radish_N.png using Guid(c274ffc0925c1ec46a177cfad175c6fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c21bcd279992e5c1fae5fd96ffd432f9') in 0.011766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/fbx/fbx/textures/T_KingOysterMushroom_N.png
+  artifactKey: Guid(7152919e6106d4b4eb8654bdf852e255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_KingOysterMushroom_N.png using Guid(7152919e6106d4b4eb8654bdf852e255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d854412b06a94c7a09a077a66a456d8') in 0.011474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/fbx/fbx/textures/T_Leek_R.png
+  artifactKey: Guid(cad63df780606674daa0e09cba12e6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Leek_R.png using Guid(cad63df780606674daa0e09cba12e6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b6846443559df2d50140010873b20f33') in 0.008983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/fbx/fbx/textures/T_Potato_N.png
+  artifactKey: Guid(5d9d36c0fdff3fd418d75588af885569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Potato_N.png using Guid(5d9d36c0fdff3fd418d75588af885569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4f99cca33076f354a94e5ac2b1e4b849') in 0.011138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/fbx/fbx/textures/T_KingOysterMushroom_AO.png
+  artifactKey: Guid(74cefba4f271a234e9641b1e48d39698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_KingOysterMushroom_AO.png using Guid(74cefba4f271a234e9641b1e48d39698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3eee304b4760d037c3472215f2ccd688') in 0.010018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/fbx/fbx/textures/T_Cauliflower_R.png
+  artifactKey: Guid(7d1b47ccfdffea74490763a758c48d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Cauliflower_R.png using Guid(7d1b47ccfdffea74490763a758c48d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ce316973b784a61558e276747527f173') in 0.009375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/fbx/fbx/textures/T_Radish_C.png
+  artifactKey: Guid(840e4c9dbc2596e4fa34e11023c8bb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Radish_C.png using Guid(840e4c9dbc2596e4fa34e11023c8bb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '19073eb00a9f2a7a93a29bcfbed2d61e') in 0.008788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/fbx/textures/T_Chili_C.png
+  artifactKey: Guid(496d5a326e9fe5948a8cad63f622a573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Chili_C.png using Guid(496d5a326e9fe5948a8cad63f622a573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3252c3b7286cfe4b5f0a133b047e668f') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/red plastic.mat
+  artifactKey: Guid(9bfdff7e9342d7e4b9d9ec5a9057dcf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/red plastic.mat using Guid(9bfdff7e9342d7e4b9d9ec5a9057dcf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bce12d2d9a5514943f2d07d0f2f947d5') in 0.007086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/dishwasher.mat
+  artifactKey: Guid(34a93778de7e6364ea00456323006c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/dishwasher.mat using Guid(34a93778de7e6364ea00456323006c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d17717851fa2b9652af668c61c3980a') in 0.006431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/fbx/fbx/textures/T_Cucumber_R.png
+  artifactKey: Guid(76c7a7de2027d26429d9b1890105f95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Cucumber_R.png using Guid(76c7a7de2027d26429d9b1890105f95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fb4da32340b986f73cad63cb78e18da8') in 0.008622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/fbx/fbx/textures/T_Tomato_R.png
+  artifactKey: Guid(b3b16a720f3079e40bcb10b5abc4a60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Tomato_R.png using Guid(b3b16a720f3079e40bcb10b5abc4a60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8af7841d1ae8001b9dee5a548fe214ab') in 0.008912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/fbx/fbx/textures/T_Cucumber_N.png
+  artifactKey: Guid(1ae922f5e86b1184284d7b997d3ba916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Cucumber_N.png using Guid(1ae922f5e86b1184284d7b997d3ba916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '569a716c20f71037dead233cfc0b0fff') in 0.010321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/pictures 2.mat
+  artifactKey: Guid(694d6c1c1b9936449bfbb52d0df968e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/pictures 2.mat using Guid(694d6c1c1b9936449bfbb52d0df968e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c2398e5f0a0f2155768dcc2835c17495') in 0.007208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/fbx/textures/T_Chili_R.png
+  artifactKey: Guid(d2c832491c3a9194598ca24d597bb68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Chili_R.png using Guid(d2c832491c3a9194598ca24d597bb68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0194415430281c72f708cb6f678c35de') in 0.013504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/dishes.mat
+  artifactKey: Guid(f2b4c44cdcef5fe478a78f2cf79c8665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/dishes.mat using Guid(f2b4c44cdcef5fe478a78f2cf79c8665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55bcaf82a598ed91d159037309fab4dc') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/napkin.mat
+  artifactKey: Guid(d4d96affb02b5d343aac823b3d09f3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/napkin.mat using Guid(d4d96affb02b5d343aac823b3d09f3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a866eb35d76a2d0bb943d71f6f131279') in 0.007775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/Tiles.mat
+  artifactKey: Guid(97a338608881d7a4aac8d6811262ae87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/Tiles.mat using Guid(97a338608881d7a4aac8d6811262ae87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0f79473b6fb49fe406438fa675bd3192') in 0.008276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/fbx/fbx/textures/T_CarrotLeaves_R.png
+  artifactKey: Guid(2dd7caabdb5866c4faea63c2ef9f0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_CarrotLeaves_R.png using Guid(2dd7caabdb5866c4faea63c2ef9f0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a6019e83561a653d8bb0329cf261690a') in 0.012199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/fbx/fbx/textures/T_Onion_R.png
+  artifactKey: Guid(4d6d24c769c039e4abe478fc283e993f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_Onion_R.png using Guid(4d6d24c769c039e4abe478fc283e993f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a949a9f736c1c4378020ee3e9f332e85') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/fbx/fbx/textures/T_CabbageGreen_AO.png
+  artifactKey: Guid(614af09bba8a15449b8a7d516d31234d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/fbx/textures/T_CabbageGreen_AO.png using Guid(614af09bba8a15449b8a7d516d31234d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f11f33315b55d3a026693e4a400450c2') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Kitchen Collection 2/Textures/vase 3 N.png
+  artifactKey: Guid(e0024c8924fca1049ae558d0a4e49068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Textures/vase 3 N.png using Guid(e0024c8924fca1049ae558d0a4e49068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fbd04cd0a05e10d30ab419a13bd20a30') in 0.011351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.158794 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/tomato.mat
+  artifactKey: Guid(f18ad8825f70e9a4587b19a6ba1318c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/tomato.mat using Guid(f18ad8825f70e9a4587b19a6ba1318c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '51bca6f60c7916f752a2ad1274b80468') in 0.010610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen_Cooking_FX/FBX/Materials/Gas_Hob_Flame_Particles_mtl.mat
+  artifactKey: Guid(fb32668f9285c3b41adb9b488f095edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/FBX/Materials/Gas_Hob_Flame_Particles_mtl.mat using Guid(fb32668f9285c3b41adb9b488f095edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '930a46f9907ea344411affe034620fa2') in 0.020843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/wood 2.mat
+  artifactKey: Guid(ef031d42fe5c40f44b52352a4665fbc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/wood 2.mat using Guid(ef031d42fe5c40f44b52352a4665fbc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4f8f2d9207d09d6baa6f25f95ee7ec0c') in 0.008463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kitchen_Cooking_FX/FBX/Materials/Liquid_Bubbles_mtl.mat
+  artifactKey: Guid(b586861539eb97e428724a61df596f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/FBX/Materials/Liquid_Bubbles_mtl.mat using Guid(b586861539eb97e428724a61df596f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e69ecca93e7da51edb29c34b9f1b3e00') in 0.019399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kitchen_Cooking_FX/FBX/Materials/Saucepan_Pot_mtl.mat
+  artifactKey: Guid(d1ae32b1bfe266a4abd779f988b42192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen_Cooking_FX/FBX/Materials/Saucepan_Pot_mtl.mat using Guid(d1ae32b1bfe266a4abd779f988b42192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9fa0757d8f5f1811f8c6a58bbb8b5734') in 0.005572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kitchen Collection 2/Models/Materials/wood 4.mat
+  artifactKey: Guid(886ce1f2ca242d54bb80196930adad7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Collection 2/Models/Materials/wood 4.mat using Guid(886ce1f2ca242d54bb80196930adad7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e106626a38a66d856b045bf2baf41ac5') in 0.005905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.570 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.058 seconds
+Domain Reload Profiling: 1585ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 10.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (57.2 KB). Loaded Objects now: 3678.
+Memory consumption went from 130.0 MB to 129.9 MB.
+Total: 2.332700 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.022600 ms  DeleteObjects: 0.072000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/TransitionArmModel.cs: 541081f84a463fbdbaf51de62d6c8587 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: 57976a817f1286614f467afed0dd856e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.SpatialTracking: fe8bd671b41f1462276b731bbb32d826 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SeedXRInputBindings.cs: 5b6b70752ca7062d0525af0428bab981 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/SwingArmModel.cs: b785e28c94fc60fc17e1daa28892b2dc -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/CameraOffsetEditor.cs: 063c409eda0f5d6811c327c4b5c05de0 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.XR.LegacyInputHelpers: 52acfc53051faf8d3716fd452f740f78 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ArmModelEditor.cs: 002f07458c7aefa2a394e7243ccd9325 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TrackedPoseDriverEditor.cs: 0b511e14ae4c20f3b8d8e2c82796f595 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/TrackedPoseDriver.cs: 7c652bf9e4ac4ec3dd58bf53ae85a810 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.SpatialTracking: dd1905b8a8246178a3248fba44980e0b -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.XR.LegacyInputHelpers: da96c0e3ee4a99cfbe3f49c08ef62202 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 8647f39ea28525d7cb72646ed790f6ec -> 
+  custom:scripting/monoscript/fileName/ArmModel.cs: 453296f093348abde426c4384ad89b48 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/SwingArmModelEditor.cs: b9619a265ade6da0cba147c75ce515a7 -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/TransitionArmModelEditor.cs: 6f53e2a966c4ba4985525963dcf7d0ab -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BasePoseProvider.cs: 9a4470e47f250d9ee83dd1e5b0c8d4fb -> 
+  custom:scripting/monoscript/fileName/CameraOffset.cs: 48495ef795ef97b0c04851d617a81ec1 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 4c38ca7417a5355dfe2fd0b706ad71e8 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
