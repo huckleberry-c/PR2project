@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638751250989236915
-    m_Hash: 2554739326
+      ticks: 638757795491795459
+    m_Hash: 2155973712
   m_LockFileStatus:
     m_FilePath: D:/21078/GitHub/PR2project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638751250989282151
-    m_Hash: 2120334319
+      ticks: 638757795491795459
+    m_Hash: 1230578074
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -120,9 +120,11 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     compatible:
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     recommended: 2.5.2
     deprecated: []
   dependencies: []
@@ -3252,10 +3254,12 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     compatible:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     recommended: 1.11.2
     deprecated: []
   dependencies:
